@@ -3,7 +3,12 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    autoprefixer-rails (6.7.7.2)
+      execjs
     backports (3.7.0)
+    bootstrap (4.0.0.alpha6)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -44,8 +49,6 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (2.1.0)
-      jekyll (~> 3.3)
     multi_json (1.12.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -78,16 +81,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap (~> 4.0.0.alpha6)
   jekyll (= 3.4.3)
   jekyll-admin
   jekyll-coffeescript
   jekyll-feed (~> 0.6)
   jekyll-paginate
-  minima (~> 2.0)
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.3.3p222
+   ruby 2.4.0p0
 
 BUNDLED WITH
    1.14.6
