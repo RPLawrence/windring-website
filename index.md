@@ -1,5 +1,4 @@
 ---
 layout: home
 ---
-
-	**Grid Status:  Up**
+**Grid Status:  Up**
